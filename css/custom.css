@@ -82,6 +82,15 @@ a {
   background-position: center;
 }
 
+.b-products {
+  background-image: url(../img/header_productos.jpg);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .b-equipo {
   background-image: url(../img/somosmasenelequipo.jpg);
   width: 100%;
@@ -122,6 +131,48 @@ a {
   padding-right: 10rem;
   padding-left: 10rem;
   text-align: center;
+}
+
+.contact {
+  background: url(../img/bg_aboutus.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.head {
+  background-color: #7E8B30;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #7E8B30;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn1 {
+  background: #7E8B30;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px;
 }
 
 /*!
