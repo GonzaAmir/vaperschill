@@ -8,7 +8,7 @@ h2, .h2 {
 }
 
 .b-image--col1 {
-  background-image: url(../img/mujer-vapeando.jpg);
+  background-image: url(../img/man-vaping-an-electronic-cigarette.jpg);
   width: 100%;
   height: 475px;
   margin-bottom: 1rem;
@@ -18,8 +18,13 @@ h2, .h2 {
   border-radius: 5px;
 }
 
+.b-image--col1:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
 .b-image--col2 {
-  background-image: url(../img/mujer-vapeando.jpg);
+  background-image: url(../img/vaper6.jpg);
   width: 100%;
   height: 230px;
   margin-bottom: 1rem;
@@ -29,7 +34,79 @@ h2, .h2 {
   border-radius: 5px;
 }
 
-.b-image--product {
+.b-image--col2:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.b-image2--col2 {
+  background-image: url(../img/vaper3.jpg);
+  width: 100%;
+  height: 230px;
+  margin-bottom: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.b-image2--col2:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.b-image1--product {
+  background-image: url(../img/papeldefumar.jpg);
+  width: 100%;
+  height: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.b-image1--product:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.b-image2--product {
+  background-image: url(../img/vaper3.jpg);
+  width: 100%;
+  height: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.b-image2--product:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.b-image3--product {
+  background-image: url(../img/pipa.jpg);
+  width: 100%;
+  height: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.b-image3--product:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.b-image4--product {
   background-image: url(../img/vape_blue.jpg);
   width: 100%;
   height: 300px;
@@ -39,6 +116,11 @@ h2, .h2 {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
+}
+
+.b-image4--product:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .b-image {
@@ -74,7 +156,7 @@ a {
 }
 
 .b-aboutus {
-  background-image: url(../img/quienesomos.jpg);
+  background-image: url(../img/quienesomos.png);
   width: 100%;
   height: 300px;
   background-size: cover;
@@ -92,12 +174,17 @@ a {
 }
 
 .b-equipo {
-  background-image: url(../img/somosmasenelequipo.jpg);
+  background-image: url(../img/estamosparati.png);
   width: 100%;
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.parrafo-principal {
+  font-size: 19px;
+  text-align: center;
 }
 
 .buscador {
@@ -123,7 +210,7 @@ a {
 }
 
 .container-aboutus .h2-aboutus {
-  color: #7E8B30;
+  color: #7e8b30;
   font-weight: 600;
 }
 
@@ -131,6 +218,10 @@ a {
   padding-right: 10rem;
   padding-left: 10rem;
   text-align: center;
+}
+
+.parrafo {
+  font-size: 20px;
 }
 
 .contact {
@@ -173,6 +264,33 @@ a {
   border-radius: 5px;
   height: 40px;
   width: 145px;
+}
+
+.galleryst .item {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.galleryst .item:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.img-properties {
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.b-gallery {
+  background-image: url(../img/galeria-titulo.png);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /*!
