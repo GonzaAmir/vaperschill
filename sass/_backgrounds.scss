@@ -1,6 +1,6 @@
 $primary:  #7E8B30;
 .b-image--col1{
-    background-image: url(../img/mujer-vapeando.jpg);
+    background-image: url(../img/man-vaping-an-electronic-cigarette.jpg);
     width: 100%;
     height: 475px;
     margin-bottom:1rem;
@@ -8,10 +8,13 @@ $primary:  #7E8B30;
     background-repeat: no-repeat;
     background-position: center;
     border-radius:5px;
+    &:hover{
+      filter:brightness(80%);
+  }
   
 }
 .b-image--col2{
-    background-image: url(../img/mujer-vapeando.jpg);
+    background-image: url(../img/vaper6.jpg);
     width: 100%;
     height: 230px;
     margin-bottom:1rem;
@@ -19,9 +22,25 @@ $primary:  #7E8B30;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
+    &:hover{
+      filter:brightness(80%);
   }
-.b-image--product{
-background-image: url(../img/vape_blue.jpg);
+  }
+  .b-image2--col2{
+    background-image: url(../img/vaper3.jpg);
+    width: 100%;
+    height: 230px;
+    margin-bottom:1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    &:hover{
+      filter:brightness(80%);
+  }
+  }
+.b-image1--product{
+background-image: url(../img/papeldefumar.jpg);
   width: 100%;
   height: 300px;
   margin-top:2rem;
@@ -30,7 +49,52 @@ background-image: url(../img/vape_blue.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
+  &:hover{
+    filter:brightness(80%);
 }
+}
+.b-image2--product{
+  background-image: url(../img/vaper3.jpg);
+    width: 100%;
+    height: 300px;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    &:hover{
+      filter:brightness(80%);
+  }
+  }
+  .b-image3--product{
+    background-image: url(../img/pipa.jpg);
+      width: 100%;
+      height: 300px;
+      margin-top:2rem;
+      margin-bottom:2rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 5px;
+      &:hover{
+        filter:brightness(80%);
+    }
+    }
+    .b-image4--product{
+      background-image: url(../img/vape_blue.jpg);
+        width: 100%;
+        height: 300px;
+        margin-top:2rem;
+        margin-bottom:2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+        &:hover{
+          filter:brightness(80%);
+      }
+      }
 .b-image{
 background-image: url(../img/mujer_vapeando_fondoverde.jpg);
   width: 200px;
@@ -60,7 +124,7 @@ a{
     border-radius:5px;
 }
 .b-aboutus{
-background-image:url(../img/quienesomos.jpg);
+background-image:url(../img/quienesomos.png);
 width: 100%;
 height:300px;
 background-size: cover;
@@ -76,10 +140,14 @@ background-position: center;
   background-position: center;
 }
 .b-equipo{
-background-image:url(../img/somosmasenelequipo.jpg);
+background-image:url(../img/estamosparati.png);
 width: 100%;
 height:300px;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+}
+.parrafo-principal{
+  font-size:19px;
+  text-align: center;
 }
